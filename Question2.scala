@@ -8,7 +8,7 @@ object Question2 {
   val zero = BigDecimal(0, mc)
   val one = BigDecimal(1, mc)
 
-  //f(n)=f(n-1) + f(n-2)*f(1)+.....+ f(1)f(n-2) + f(n-1)
+  //f(n)=f(n-1) + f(n-2)*f(1)+.....+ f(1)*f(n-2) + f(n-1)
   
   val bstCount: Int => BigDecimal = f
   
